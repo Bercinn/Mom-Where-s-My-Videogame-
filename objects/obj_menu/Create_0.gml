@@ -50,7 +50,7 @@ draw_menu = function(){
 		outline_draw_text_transformed(_gui_w/2, _gui_h/2+_hstr*i, menu_op[i], op_scl[i], op_scl[i], 0, ol_config(3,c_black,,1,,,1));
 	}
 	
-	var _name = "Mom, Where's My Videogame?";
+	var _name = "Mom, Where's My Cellphone?";
 	outline_draw_text_transformed(_gui_w/2, 50+sin_wave(5,2,1), _name, 1.5,1.5, sin_wave(1,1,1), ol_config(3,c_black,,1,,,1));
 	
 	align_text(-1, -1);
