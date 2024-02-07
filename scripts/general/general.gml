@@ -22,3 +22,4 @@ function transition(_destiny, _delay = 0){
 	_t.destiny = _destiny;
 	_t.delay = _delay;
 }
+

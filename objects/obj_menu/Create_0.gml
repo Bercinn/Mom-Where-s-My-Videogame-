@@ -52,6 +52,9 @@ draw_menu = function(){
 	
 	var _name = "Mom, Where's My Cellphone?";
 	outline_draw_text_transformed(_gui_w/2, 50+sin_wave(5,2,1), _name, 1.5,1.5, sin_wave(1,1,1), ol_config(3,c_black,,1,,,1));
+	draw_set_valign(1);
+	draw_set_halign(0);
+
 	
 	align_text(-1, -1);
 	draw_set_font(-1);
