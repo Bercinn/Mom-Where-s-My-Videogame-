@@ -5,7 +5,11 @@ var _ssize = string_length(txt[page]);
 
 if(letter < _ssize){
 	letter += .3;
+	if(keyboard_check_pressed(vk_shift)){
+		letter = _ssize;
+	}
 }
+
 cur_txt = string_copy(txt[page], 0, letter);
 
 if(letter >= _ssize && page < _tsize-1){

@@ -7,5 +7,10 @@ outline_draw_text_transformed(display_get_gui_width()/2,
 display_get_gui_height() - string_height("I"), cur_txt, cur_scl, cur_scl,
 0, ol_config(3, c_black, ,1,,,1));
 
+align_text(0, 1);
+
+outline_draw_text(10, 10, "Aperte ESPAÇO para ir para a próxima página");
+outline_draw_text(10, 30, "Aperte SHIFT para auto completar a página");
+
 draw_set_font(-1);
 align_text(-1, -1);
