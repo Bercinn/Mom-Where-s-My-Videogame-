@@ -1,20 +1,20 @@
 { // YOU CAN CHANGE THESE //
-	//obj_player.can_move = false;					// Don't let the player to move. Edit DrawGUI line 45 too.
-	wrapped_scale		= true;						// Scaling textbox foresight or snap.
-	maxwidth			= 288;						// Max lenght to textbox can reach.
-	charspeed			= 0.8;						// Letters plament speed.
-	scalespeed			= 0.5						// Textbox scaling speed.
-	alpha_eraser		= 0.025;					// The power of erasure while disappearing.
-	sound_delay			= 4							// How many milliseconds does a sound play? (When a letter spawns.)
-	next_key			= vk_enter					// New page key.
-	skip_key			= vk_shift					// Instant place all letters.
-	res					= .9						// Resolition of whole textbox. (Between 1-4 recommended)
-	font				= fnt_menu				// Font of text.
-	textbox_sprite		= spr_textbox				// Nineslice textbox sprite.
-	sound_fx			= snd_txtsans				// The sound effect will be played when an letters spawns.
+	//obj_player.can_move = false; //proibindo player de mexer coloquei se o player ficar na mesma room				
+	wrapped_scale		= true;						// Dimensionamento da previsão ou snap da caixa de texto.
+	maxwidth			= 288;						// maximo de letras (não importa muito mais criei pra muita coisa so ingnore)
+	charspeed			= 0.3;						// velocidade das letras
+	scalespeed			= 0.5						// scala do Textbox ta ligado né
+	alpha_eraser		= 0.025;					// alpha do texto ingnore tbm ta otimo assim
+	sound_delay			= 4							// audio das letras em milissegundos (se mexer e de merda mn...)
+	next_key			= vk_enter					// tecla pra proxima frase
+	skip_key			= vk_shift					// para pular a maquina de texto e ir pro final
+	res					= .9						//resolução do textbox. (entre 1-4 recomendo)
+	font				= fnt_menu				    // Font para o texto.
+	textbox_sprite		= spr_textbox				// sprite do textbox. (essa tá otima viu)
+	sound_fx			= snd_txtsans				// o son efeito para as letras quando spawnarem.
 }
 
-{ // Do NOT delete or corrupt these:
+{ // isso daqui não e nada (não mexer são mais especificas)
 	enum STATES {LIFE,OUT,DESTROY}
 	state = STATES.LIFE;
 

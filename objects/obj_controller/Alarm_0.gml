@@ -1,1 +1,1 @@
-room_goto(rm_story);
+room_goto(rm_intro);
