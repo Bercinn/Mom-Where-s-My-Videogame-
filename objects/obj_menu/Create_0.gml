@@ -34,7 +34,7 @@ draw_menu = function(){
 					
 					case menu_op[1]:
 						op_scl[1] = _ds;
-						show_message("Creditos");
+						transition(rm_credits);
 					break;
 					
 					case menu_op[2]:

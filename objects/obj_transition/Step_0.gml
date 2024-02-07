@@ -11,6 +11,6 @@ if(!has_entered){
 	alp = lerp(alp, 0, .1);
 	if(alp <= .1){
 		instance_destroy();
-		show_message("acabou");
+		//show_message("acabou");
 	}
 }
