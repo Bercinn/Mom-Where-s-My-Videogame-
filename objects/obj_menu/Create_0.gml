@@ -29,7 +29,7 @@ draw_menu = function(){
 				switch(menu_op[i]){
 					case menu_op[0]:
 						op_scl[0] = _ds;
-						show_message("Play");
+						transition(rm_story);
 					break;
 					
 					case menu_op[1]:

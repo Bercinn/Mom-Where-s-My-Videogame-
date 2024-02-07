@@ -39,10 +39,13 @@
     {"id":{"name":"__scr_outline","path":"scripts/__scr_outline/__scr_outline.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
+    {"id":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"id":{"name":"general","path":"scripts/general/general.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"__shd_outline","path":"shaders/__shd_outline/__shd_outline.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
+    {"id":{"name":"obj_story","path":"objects/obj_story/obj_story.yy",},},
     {"id":{"name":"Outline Documentation","path":"notes/Outline Documentation/Outline Documentation.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
@@ -50,6 +53,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
