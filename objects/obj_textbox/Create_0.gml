@@ -6,12 +6,12 @@
 	scalespeed			= 0.5						// scala do Textbox ta ligado né
 	alpha_eraser		= 0.025;					// alpha do texto ingnore tbm ta otimo assim
 	sound_delay			= 4							// audio das letras em milissegundos (se mexer e de merda mn...)
-	next_key			= vk_enter					// tecla pra proxima frase
+	next_key			= vk_space					// tecla pra proxima frase
 	skip_key			= vk_shift					// para pular a maquina de texto e ir pro final
 	res					= .9						//resolução do textbox. (entre 1-4 recomendo)
 	font				= fnt_menu				    // Font para o texto.
 	textbox_sprite		= spr_textbox				// sprite do textbox. (essa tá otima viu)
-	sound_fx			= snd_txtsans				// o son efeito para as letras quando spawnarem.
+	sound_fx			= noone		                // o son efeito para as letras quando spawnarem.
 }
 
 { // isso daqui não e nada (não mexer são mais especificas)
