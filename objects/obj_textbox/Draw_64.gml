@@ -41,8 +41,15 @@ if spawn_delay <= 0 and keyboard_check_pressed(next_key)
 {
 	if charnum >= lenght
 	{
+	    global.cur_img++;
 		if text_num != array_length(text)-1 {text_num++; charnum = 0;}
 		else {state = STATES.OUT; /*obj_player.can_move = true;*/}
+		
+	if(global.cur_img >= 3)
+    {
+       global.cur_img = 3;
+    }
+	
 	}
 }else spawn_delay--
 if spawn_delay <= 0 and keyboard_check_pressed(skip_key) charnum = lenght+1

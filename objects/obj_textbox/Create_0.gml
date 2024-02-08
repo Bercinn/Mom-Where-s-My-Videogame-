@@ -17,7 +17,8 @@
 { // isso daqui não e nada (não mexer são mais especificas)
 	enum STATES {LIFE,OUT,DESTROY}
 	state = STATES.LIFE;
-
+	
+    cur_img = 0;
 	charnum = 1;
 	old_charnum = 0;
 	current_xscale = 1;
