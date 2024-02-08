@@ -24,6 +24,6 @@ cur_img = clamp(cur_img, 0, sprite_get_number(spr_story_bg)-1);
 
 if(page == _tsize-1 && letter >= _ssize){
 	if(keyboard_check_pressed(vk_enter)){
-		transition(rm_menu);
+		transition(rm_game);
 	}
 }

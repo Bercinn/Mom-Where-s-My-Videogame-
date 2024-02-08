@@ -38,6 +38,7 @@
     {"name":"obj_story","order":10,"path":"objects/obj_story/obj_story.yy",},
     {"name":"obj_credits","order":9,"path":"objects/obj_credits/obj_credits.yy",},
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
+    {"name":"rm_game","order":8,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_intro","order":2,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"fnt_story","order":1,"path":"fonts/fnt_story/fnt_story.yy",},
     {"name":"obj_logo2","order":8,"path":"objects/obj_logo2/obj_logo2.yy",},
