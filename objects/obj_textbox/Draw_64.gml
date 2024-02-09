@@ -10,7 +10,7 @@ _txt = state == STATES.OUT ? txt : _txt; //se o estado for igual a acabou ele va
 var twidth = string_width(wrapped_scale ? txt : _txt)*res +space*2;
 var theight = string_height(wrapped_scale ? txt : _txt)*res +space*2;
 var _x = display_get_gui_width()/2 - twidth/2;
-var _y = display_get_gui_height()-128;
+var _y = display_get_gui_height()-70;
 var c  = draw_get_color(); //variavel de cor
 var lenght = string_length(_txt); //variavel de definição de texto
 
