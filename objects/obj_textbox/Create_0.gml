@@ -9,7 +9,7 @@
 	next_key			= vk_space					// tecla pra proxima frase
 	skip_key			= vk_shift					// para pular a maquina de texto e ir pro final
 	res					= .9						//resolução do textbox. (entre 1-4 recomendo)
-	font				= fnt_menu				    // Font para o texto.
+	font				= fnt_story				    // Font para o texto.
 	textbox_sprite		= spr_textbox				// sprite do textbox. (essa tá otima viu)
 	sound_fx			= noone		                // o son efeito para as letras quando spawnarem.
 }

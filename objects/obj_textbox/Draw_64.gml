@@ -43,10 +43,10 @@ charnum = floor(charnum)+1 == lenght and state == STATES.LIFE ? lenght+1 : charn
 //atualizando o textbox
 if spawn_delay <= 0 and keyboard_check_pressed(next_key) //verificando se pode aperta para a proxima frase
 {
-	if charnum >= lenght //indo pra proxima pagina de dialogo
+	if charnum == lenght+1 //indo pra proxima pagina de dialogo
 	{
 	    global.cur_img++;//mudando os sprites
-		if text_num != array_length(text)-1 {text_num++; charnum = 0;} //indo pra proxima pagina de dialogo
+		if text_num != array_length(text)-1 {text_num++; charnum = 1;} //indo pra proxima pagina de dialogo
 		
 		else  //fim e ele vai pra outra cena
 		{
