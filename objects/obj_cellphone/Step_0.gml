@@ -19,4 +19,9 @@ if(!can_click){
 	
 	y += sin_wave(5, 2);
 	image_angle += sin_wave(.5,1);
+	
+	if(keyboard_check_pressed(vk_enter)){
+		global.max_timer -= SEC * 10;
+		room_restart();
+	}
 }
