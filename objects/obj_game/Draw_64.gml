@@ -1,5 +1,3 @@
-draw_sprite_ext(spr_game_bg, cur_bg, 0, 0, 1, 1, 0, -1, 1);
-
 draw_set_text(1,1,fnt_menu, c_white);
 
 var _gui_w = display_get_gui_width();

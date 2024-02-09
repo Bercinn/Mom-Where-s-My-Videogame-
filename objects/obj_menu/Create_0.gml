@@ -1,3 +1,5 @@
+global.max_timer = MIN * 1.20;
+
 menu_op = ["Jogar", "Créditos", "Sair"];
 
 op_len = array_length(menu_op);
