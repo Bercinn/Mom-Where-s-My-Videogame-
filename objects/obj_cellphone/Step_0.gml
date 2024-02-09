@@ -5,11 +5,13 @@ if(position_meeting(mouse_x, mouse_y, id) && can_click){
 	image_blend = c_orange;
 	if(mouse_check_button_pressed(mb_right) && can_click){
 		can_click = false;
+		alarm[0] = 60;
 	}
 }
 
 if(!can_click){
 	global.can_run_timer = false;
+	global.cur_time -= 100;//diminuindo o timer
 	x = lerp(x, room_width/2, .1);
 	y = lerp(y, room_height/2, .1);
 	image_xscale = lerp(image_xscale, 4, .1);

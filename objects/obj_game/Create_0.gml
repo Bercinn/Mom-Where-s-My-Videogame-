@@ -5,7 +5,10 @@ show_time = global.timer;
 
 cur_bg = choose(0, 1, 2);
 
+global.cur_time = 1000000;
+
 global.can_run_timer = true;
+
 
 switch(cur_bg){
 	case 0:
