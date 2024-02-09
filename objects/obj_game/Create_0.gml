@@ -1,6 +1,7 @@
 var _lay_id = layer_get_id("Blur");
 layer_set_visible(_lay_id, false);
 
+global.timer = global.max_timer;
 show_time = global.timer;
 
 cur_bg = choose(0, 1, 2);

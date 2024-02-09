@@ -5,7 +5,6 @@ if(position_meeting(mouse_x, mouse_y, id) && can_click){
 	image_blend = c_orange;
 	if(mouse_check_button_pressed(mb_right) && can_click){
 		can_click = false;
-		alarm[0] = 60;
 	}
 }
 
@@ -21,4 +20,13 @@ if(!can_click){
 	
 	y += sin_wave(5, 2);
 	image_angle += sin_wave(.5,1);
+	if(keyboard_check_pressed(vk_enter)){
+		global.max_timer -= SEC * 10;
+		room_restart();
+	}
+}
+
+if(vitorias == 3)
+{
+   transition(rm_win);
 }

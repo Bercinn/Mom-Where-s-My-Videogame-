@@ -11,3 +11,4 @@ if(x < room_width/2 && y < room_height/2){
 }
 
 can_click = true;
+vitorias = 0;
