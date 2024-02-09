@@ -34,7 +34,7 @@ draw_menu = function(){
 					
 					case menu_op[1]:
 						op_scl[1] = _ds;
-						transition(rm_credits);
+						transition(rm_credits, SEC/2);
 					break;
 					
 					case menu_op[2]:
